@@ -24,6 +24,7 @@
 		"files.autoSaveDelay": 700,
 		"workbench.colorTheme": "Aura Dark (Soft Text)",
 		//"workbench.colorTheme": "Aura Dark",
+		//"workbench.colorTheme": "Aura Dark",
 		"workbench.iconTheme": "material-icon-theme",
 		"workbench.colorCustomizations": {
 			"titleBar.activeBackground": "#424242",
