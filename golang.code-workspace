@@ -49,6 +49,7 @@
 			"borderColor : {color}; opacity: 0.5"
 		],
 		//"editor.semanticHighlighting.enabled": "configuredByTheme",
+		//"editor.defaultFormatter": "golang.go",
 		"go.useLanguageServer": true,
 		"gopls": {
 			"ui.semanticTokens": true,
