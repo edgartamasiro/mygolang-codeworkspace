@@ -1,0 +1,77 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"window.title": "${dirty}${separator}${folderPath}",
+		"editor.cursorStyle": "line-thin",
+		"editor.cursorBlinking": "phase",
+		"editor.cursorSmoothCaretAnimation": true,
+		"editor.minimap.enabled": false,
+		"editor.fontFamily": "Fira Code",
+		"editor.fontLigatures": true,
+		"editor.fontWeight": "370",
+		"editor.formatOnSave": true,
+		"editor.formatOnSaveMode": "file",
+		"editor.formatOnPaste": false,
+		"files.exclude": {
+			//"**/*.ipynb": true
+		},
+		"editor.fontSize": 16,
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 700,
+		"workbench.colorTheme": "Aura Dark (Soft Text)",
+		//"workbench.colorTheme": "Aura Dark",
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.colorCustomizations": {
+			"titleBar.activeBackground": "#424242",
+			"statusBar.background": "#3a3a3b"
+		},
+		"bracketPairColorizer.depreciation-notice": false,
+		"editor.bracketPairColorization.enabled": true,
+		"editor.guides.bracketPairs": "active",
+		"bracketPairColorizer.forceUniqueOpeningColor": true,
+		"bracketPairColorizer.forceIterationColorCycle": true,
+		"bracketPairColorizer.highlightActiveScope": true,
+		"editor.matchBrackets": "never",
+		"bracketPairColorizer.activeScopeCSS": [
+			"borderStyle : solid",
+			"borderWidth : 1px",
+			"backgroundColor : {}",
+			"borderColor : {color}; opacity: 0.5"
+		],
+		"bracketPairColorizer.showBracketsInGutter": false,
+		"bracketPairColorizer.scopeLineCSS": [
+			"borderStyle : solid",
+			"borderWidth : 1px",
+			"borderColor : {color}; opacity: 0.5"
+		],
+		//"editor.semanticHighlighting.enabled": "configuredByTheme",
+		//"editor.defaultFormatter": "golang.go",
+		"go.useLanguageServer": true,
+		"gopls": {
+			"ui.semanticTokens": true,
+			"formatting.gofumpt": true
+		},
+		"sync.gist": "a3a3c623ee5ee335d4b91f853bff0ee4",
+		"sync.autoDownload": false,
+		"sync.autoUpload": false,
+		"sync.forceDownload": false,
+		"sync.removeExtensions": true,
+		"sync.syncExtensions": true,
+		"sync.forceUpload": false,
+		"sync.quietSync": false,
+		"git.confirmSync": false,
+		"gitlens.hovers.currentLine.over": "annotation",
+		"gitlens.defaultDateLocale": "system",
+		"path-intellisense.autoTriggerNextSuggestion": true,
+		"path-intellisense.mappings": {
+			"/": "${workspaceFolder}"
+			//"lib": "${workspaceFolder}/lib",
+			//"global": "/Users/dummy/globalLibs",
+		},
+		"editor.stickyScroll.enabled": true
+	}
+}
